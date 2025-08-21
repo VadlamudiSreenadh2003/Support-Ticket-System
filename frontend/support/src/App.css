@@ -1,0 +1,72 @@
+ /* Layout */
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Button Card */
+.card {
+  background-color: #f4f4f4;
+  padding: 2em;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Counter Button */
+.card button {
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #4e54e2;
+}
+
+/* Ticket Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #218838;
+}
